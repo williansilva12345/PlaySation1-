@@ -19,6 +19,7 @@ section{
 #banner {
 
 display: flex;
+	background:white;
     height: 860px;
     background-image: url(./play.png);
     background-attachment: fixed;
@@ -88,7 +89,8 @@ header nav ul {
 	   text-decoration:none;
 	   color:white;
 	   text-transform:uppercase;
-	     font-family: "Orbitron", sans-serif;
+		      font-family: 'Press Start 2P', cursive; /* Para texto principal */
+
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -165,9 +167,12 @@ article p{
 p{
 	padding:20px;
 	text-align:justify;
+	      font-family: 'Press Start 2P', cursive;
+
 }
 h1{
-	  font-family: "Jaldi", sans-serif;
+      font-family: 'Press Start 2P', cursive;
+
   font-weight: 400;
   padding:10px;
   font-style: normal;
