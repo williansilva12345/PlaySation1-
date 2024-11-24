@@ -1,13 +1,24 @@
 const all = document.querySelectorAll("[data-anima]");
 const anima = "animacao";
+var banner = document.getElementById("banner")
 
 var div1 = document.getElementById("div1");
 
-function animascroll() {
-    var topo = window.pageYOffset + 500;
+function animascroll() {  
+ 
+	 var scrollPosition = window.scrollY; // Posição do scroll
+    var hueValue = (scrollPosition % 360); // Calcula a tonalidade (0 a 360 graus)
+
+    // Define a cor do background usando HSL
+    banner.style.backgroundColor = `hsl(${hueValue}, 50%, 50%)`;
+ 
+
+ var topo = window.pageYOffset + 500;
     all.forEach(function(element) {
         if (topo > element.offsetTop) {
             element.classList.add("animacao");
+			banner.style.filter = ""
+			
         } else {
             element.classList.remove("animacao");
         }

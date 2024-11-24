@@ -20,15 +20,20 @@ section{
 
 display: flex;
     height: 860px;
-	filter:drop-shadow(2px 4px 6px black);
     background-image: url(./play.png);
     background-attachment: fixed;
     background-size: contain;
 	background-repeat:no-repeat;
     background-position: center center;
-	background-position-y:14px;
-}
+	background-position-y:84px;
 
+}
+ #banner h1{
+		  font-size:3rem;
+		      font-family: 'Press Start 2P', cursive; /* Para texto principal */
+
+
+ }
 header{
 	padding:15px 0px;
 	position:fixed;
