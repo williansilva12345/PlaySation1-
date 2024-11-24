@@ -10,7 +10,7 @@ function animascroll() {
     var hueValue = (scrollPosition % 360); // Calcula a tonalidade (0 a 360 graus)
 
     // Define a cor do background usando HSL
-    banner.style.backgroundColor = `hsl(${hueValue}, 50%, 50%)`;
+    banner.style.backgroundColor = `hsl(${hueValue}, 37%, 50%)`;
  
 
  var topo = window.pageYOffset + 500;
